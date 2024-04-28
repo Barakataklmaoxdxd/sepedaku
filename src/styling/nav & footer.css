@@ -1,0 +1,85 @@
+/* @import url('https://fonts.cdnfonts.com/css/built-titling');
+
+#navbar {
+  width: 100%;
+  height: 40%;
+  background-color: black;
+  opacity: 50%;
+  color: white;
+  font-size: 25px;
+  font-weight: 600; 
+  padding:  3rem 0; 
+  text-align: center;
+  position: sticky;
+  font-family: 'Built-Titling', sans-serif;
+}
+
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#dropdown {
+  overflow: hidden;
+  width: 100%;
+}
+
+#isi {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  padding: 40px;
+} 
+
+#dropdown:hover #isi {
+  display: block;
+} 
+
+#list {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+  color: white;
+  font-family: 'Built-Titling', sans-serif;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: -20px;
+}
+
+#isi {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#teks-drop {
+  opacity: 100%;
+  padding-top: 300px;
+}
+
+#dropdown:hover #isi {
+  display: block;
+  z-index: 3;
+} 
+
+ */

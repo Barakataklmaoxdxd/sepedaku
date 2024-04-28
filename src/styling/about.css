@@ -1,0 +1,216 @@
+@import url('https://fonts.cdnfonts.com/css/druk-wide-bold');
+
+#team {
+  font-size: 30px; 
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'druk wide bold', sans-serif;
+}
+
+.bungkus {
+  margin-top: 200px;
+}
+
+#Naon {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 90px;
+  font-family: 'druk wide bold', sans-serif;
+}
+
+@keyframes Naon {
+  from {margin-left: -1000px;
+       opacity: 1%;}
+  to {margin-left: 0px;
+     opacity: 100%;}
+}
+
+#Naon {
+  animation-name: Naon;
+  animation-duration: 4s;
+}
+
+#jelas {
+  margin: 100px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+/* gambar pembuat */
+.gambar1 {
+  width: 200px;
+  height: 355px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.gambar1 img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.gambar2 {
+  width: 200px;
+  height: 355px;
+  margin-top: -355px;
+  margin-left: 400px;
+  border-radius: 10px;
+}
+
+.gambar2 img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.gambar3 {
+  width: 200px;
+  height: 355px;
+  margin-top: -355px;
+  margin-left: 750px;
+  border-radius: 10px;
+}
+
+.gambar3 img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.gambar4 {
+  width: 200px;
+  height: 355px;
+  margin-top: -355px;
+  margin-left: 1050px;
+  border-radius: 10px;
+}
+
+.gambar4 img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+/* teks pembuat */
+#teks1 {
+   text-align: center;
+   transform: rotate(90deg);
+   margin-top: -200px;
+   color: white;
+   text-decoration-style: bold;
+   font-size: 20px;
+   font-family: 'druk wide bold', sans-serif;
+   letter-spacing: 3px;
+   text-shadow: 0px 0px 10px black
+}
+
+#teks2 {
+   text-align: center;
+   transform: rotate(90deg);
+   margin-top: -200px;
+   color: white;
+   text-decoration-style: bold;
+   font-size: 20px;
+   font-family: 'druk wide bold', sans-serif;
+   letter-spacing: 3px;
+   text-shadow: 0px 0px 10px black
+}
+
+#teks3 {
+   text-align: center;
+   transform: rotate(90deg);
+   margin-top: -200px;
+   color: white;
+   text-decoration-style: bold;
+   font-size: 20px;
+   font-family: 'druk wide bold', sans-serif;
+   letter-spacing: 3px;
+   text-shadow: 0px 0px 10px black
+}
+
+#teks4 {
+   text-align: center;
+   transform: rotate(90deg);
+   margin-top: -210px;
+   color: white;
+   text-decoration-style: bold;
+   font-size: 20px;
+   font-family: 'druk wide bold', sans-serif;
+   letter-spacing: 3px;
+   text-shadow: 0px 0px 10px black
+}
+
+/* bungkus semua */
+
+
+/* Animation */
+#teks1:hover {
+  font-size: 30px;
+  opacity: 70%;
+  transform: rotate(0deg);
+}
+
+#teks2:hover {
+  font-size: 30px;
+  opacity: 70%;
+  transform: rotate(0deg);
+}
+
+#teks3:hover {
+  font-size: 30px;
+  opacity: 70%;
+  transform: rotate(0deg);
+}
+
+#teks4:hover {
+  font-size: 30px;
+  opacity: 70%;
+  transform: rotate(0deg);
+}
+/* Animation */
+@keyframes teks1 {
+  from {color: red;}
+  to {color: white;}
+}
+
+#teks1 {
+  animation-name: teks1;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite
+}
+
+@keyframes teks2 {
+  from {color: #0091ff;}
+  to {color: white;}
+}
+
+#teks2 {
+  animation-name: teks2;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite
+}
+
+@keyframes teks3 {
+  from {color: #853c00;}
+  to {color: white;}
+}
+
+#teks3 {
+  animation-name: teks3;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite
+}
+
+@keyframes teks4 {
+  from {color: #99ff00;}
+  to {color: white;}
+}
+
+#teks4 {
+  animation-name: teks4;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite
+}

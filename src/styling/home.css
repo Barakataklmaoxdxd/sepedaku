@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/druk-wide-bold');
+@import url('https://fonts.cdnfonts.com/css/avantgarde-md-bt');
+
+/* container ke 1 */
+#container {
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'druk wide bold';
+  font-weight: 700;
+}
+
+.bikes {
+  height: 500px;
+  margin-top: -450px;
+  color: white;
+}
+
+h1 {
+  font-size: 40px; 
+}
+
+#tx {
+  font-family: serif;
+  font-family: 'AvantGarde Md BT', sans-serif;
+  letter-spacing: 8px;
+  font-size: 20px; 
+}
+/* container ke 1 */
+
+
+/* ngatur posisi teks */ 
+.bikes {
+  height: 500px;
+  margin-top: -450px;
+  color: white;
+}
+
+/* container ke 2 */
+#container2 {
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'druk wide bold';
+  font-weight: 700;
+}
+
+.bikes2 {
+  height: 500px;
+  margin-top: -500px;
+  color: white;
+}
+
+#tx2 {
+  font-family: serif;
+  font-family: 'AvantGarde Md BT', sans-serif;
+  letter-spacing: 8px;
+  font-size: 20px; 
+}
+
+/* container ke 3 */
+#container3 {
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'druk wide bold';
+  font-weight: 700;
+}
+
+.bikes3 {
+  height: 500px;
+  margin-top: -500px;
+  color: white;
+}
+
+#tx3 {
+  font-family: serif;
+  font-family: 'AvantGarde Md BT', sans-serif;
+  letter-spacing: 8px;
+  font-size: 20px; 
+}

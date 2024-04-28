@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/druk-wide-bold');
+@import url('https://fonts.cdnfonts.com/css/avantgarde-md-bt');
+
+#tit {
+  text-align: center;
+  font-weight: 600;
+  font-size: 56px;
+  font-family: 'Druk Wide Bold', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;  
+  justify-content: space-between;
+  margin: 9rem;
+}
+
+#card1 {
+  border : 3px solid black;
+  padding: 100px; 
+  border-radius: 35px;
+  margin: 0 4rem;
+}
+
+#card1 img {
+  width: 100%;
+}
+
+#card2 {
+  border : 3px solid black;
+  padding: 100px; 
+  border-radius: 35px;
+  margin: 0 4rem;
+}
+
+#card2 img {
+  width: 100%;
+  
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'AvantGarde Md BT', sans-serif;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Druk Wide Bold', sans-serif;
+  font-size: 35px;
+}
